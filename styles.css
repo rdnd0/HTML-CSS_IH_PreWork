@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,700|Source+Sans+Pro');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:"Open Sans";
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+h1{
+  font-size: 3em;
+  font-weight: 300;
+}
+
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px;
+  height: 23px;
+  font-family: "Source Sans Pro";
+}
+
+nav a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-family: "Source Sans Pro";
+}
+
+nav .top-left{
+  float: left;
+  padding: 0px;
+  margin: 0 0 0 20px;
+}
+
+nav .top-links{
+  display: inline-block;
+  float: right;
+  padding: 1px;
+  margin: 0 20px 0 0;
+}
+
+nav .top-links li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  background: url(images/city-scape.svg) 0 0 no-repeat;
+  /*background-color: rgb(32, 101, 136);*/
+  background-position: bottom;
+  height: 650px;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+} 
+
+header .search{
+  background-color: rgb(32, 101, 136);
+  color: white;
+  margin: 0 auto;
+  float: left;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search img{
+  float: left;
+  height: 30px;
+  margin: 0 15px 0 30px;
+}
+
+.search form{
+  float: left;
+  margin: 0 ;
+  width: 1050px;
+  vertical-align: middle;
+}
+
+.search-text{
+  width: 95%;
+  padding: 10px 0px 10px 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  background-color:rgb(31, 82, 111);
+  border: none;
+  border-radius: 5px;
+}
+
+.search-button{
+  width: 30px;
+  padding: 10px 0px;
+  font-size: 14px;
+  background-color:rgb(31, 82, 111);
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: center;
+  cursor: pointer;
+}
+.search-button:hover{
+  color: #C12127;
+}
+
+.search-links{
+float: left;
+vertical-align: middle;
+margin: 0 10px 0 10px;
+display: flex;
+align-items: center;
+}
+
+.search-links li{
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.search-links img{
+  float: left;
+  height: 40px;
+  margin: 0 0 0 10px;
+  border-radius: 5px;
+}
+
+.search-links a{
+text-decoration: none;
+color: white;
+}
+
+header .buildamazing{
+  margin-left: 250px;
+  padding-top: 130px;
+}
+
+.buildamazing p, .buildamazing a{
+  font-weight : 100;
+  font-size : 1.1em;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+
+.btn-build{
+  display: inline-block;
+  background-color: rgb(240, 146, 51);
+  color: white;
+  width: 220px;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+.btn-build:hover{
+  background-color: rgb(226, 118, 10);
+}
+
+

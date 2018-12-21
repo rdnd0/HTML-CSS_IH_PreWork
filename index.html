@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>npm</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
   <nav>
     <div class="top-left">
       <a class="heart" href="#">♥︎</a>
-      <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+      <span class="acronym">&nbsp;&nbsp;&nbsp; Neophobe Plebeian Mumpsimus</span>
     </div>
     <ul class="top-links">
       <li><a href="#">npm Enterprise</a></li>
@@ -23,13 +25,33 @@
   </nav>
 
   <header>
-    <h1>Build amazing things</h1>
-    <p>npm is the package manager for
-      JavaScript and the world’s largest
-      software registry. Discover packages of 
-      reusable code — and assemble them in
-      powerful new ways.</p>
-    <a href="#">Sign up</a>  
+    <div class="search">
+      <img src="images/npm-logo.png" alt="logo"/>
+      <form action="index.html">
+        <input type="text" name="text" class="search-text" placeholder="Search packages">
+        <button type="submit" class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+      <ul class="search-links">
+        <li><a href="#">Sign up</a></li>
+        <li>&nbsp;or&nbsp;</li>
+        <li><a href="#">Log in</a></li>
+        <li><img src="images/bear-logo.png"</li>
+      </ul>
+    </div>
+
+    <div class="buildamazing"> 
+      <h1>Build amazing<br> things</h1>
+      <br><br>
+      <p>npm is the package manager for<br>
+        JavaScript and the world’s largest<br>
+        software registry. Discover packages of<br> 
+        reusable code — and assemble them in<br>
+        powerful new ways.</p>
+        <br>
+      <a href="#" class="btn-build">Sign up</a>
+    </div>
   </header>
 
   <section id="orgs">
