@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,700|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700|Source+Sans+Pro');
 
 * {
   margin: 0;
@@ -15,6 +15,18 @@ body{
 h1{
   font-size: 3em;
   font-weight: 300;
+}
+
+h2{
+  font-size: 2.2em;
+  font-weight:400;
+  letter-spacing: 1px;
+}
+
+h3{
+  font-size: 2.1em;
+  font-weight:400;
+  letter-spacing: 1px;
 }
 
 nav{
@@ -167,4 +179,91 @@ header .buildamazing{
   background-color: rgb(226, 118, 10);
 }
 
+#orgs {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+
+#orgs .image-orgs{
+  width: 450px;
+  float: left;
+  margin-bottom: 125px;
+  
+}
+
+#orgs .org-links{ 
+
+letter-spacing: 1.5px;
+margin-left: 100px;
+float: left;
+
+}
+
+#orgs a{
+  text-decoration: none;
+  color: white;
+}
+
+#orgs li{
+  margin: 20px;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+#orgs .button-sign{
+  display: block;
+  background-color: rgb(203, 56, 55);
+  border-radius: 30px;
+  padding: 12px 100px;
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+}
+
+#orgs p{
+  margin: 0 auto;
+  text-align: center;
+  line-height: 15px;
+}
+
+#definition{
+  background-image: url(images/forklift.svg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#definition .fork{
+  color: white;
+  height: 50%;
+  width: 27%;
+  margin: 0 15.5%;
+  line-height: 25px;
+  
+}
+
+#definition a{
+  display: block;
+  background-color: rgb(49, 68, 88);
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 15px;
+  width: 30%;
+  color: white;
+  margin-top: 20px;
+  font-size: 0.95em;
+}
+
+#definition p{
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-size: 0.95em;
+  margin-top: 40px;
+}
