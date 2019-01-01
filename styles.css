@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,700|Source+Sans+Pro');
 
 * {
   margin: 0;
@@ -26,6 +26,12 @@ h2{
 h3{
   font-size: 2.1em;
   font-weight:400;
+  letter-spacing: 1px;
+}
+
+h4{
+  font-size: 1.2em;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -267,3 +273,48 @@ float: left;
   font-size: 0.95em;
   margin-top: 40px;
 }
+
+#make {
+  height: 500px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#make .make-header p{
+  color: rgb(83, 88, 98);
+  margin-top: 20px;
+  letter-spacing: 0.1;
+}
+
+#make .make-logos{
+  width: 1000px;
+  margin: 5% auto;
+}
+
+#make .make-logos article{
+  display: inline-block;
+  float: left;
+  width: 27%;
+}
+
+#make .make-logos img{
+width: 35%;
+}
+
+#make .make-logos a{
+  color: rgb(203, 56, 55);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#make .make-logos h4{
+  display: block;
+  margin: 15px 0px;
+}
+
+#make .middle-col{
+  margin: 0 5%;
+}
+
+
+
